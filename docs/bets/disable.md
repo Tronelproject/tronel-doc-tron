@@ -1,9 +1,9 @@
-/bets/:id/joinAsCreator PUT
+/bets/:id/disable PUT
 =========
 
-update state of the bet, when creator of bet, join his/her bet. return updated bet. call this when creator joins bet.
+update state of the bet, when creator of bet, disable a bet.
 
-* route: `/bets/:id/joinAsCreator`
+* route: `/bets/:id/disable`
   * id: bet id.
 * method: `PUT`
 * url query: none
