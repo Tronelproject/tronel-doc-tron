@@ -1,13 +1,14 @@
 /bets GET
 =========
 
+list of all bets.
+
 * route: `/bets`
 * method: `GET`
 * url query: none
 * body: none
 
-* response:
-  list of all bets.
+* response: `[Object]`
 
   * sample response
     ```javascript
