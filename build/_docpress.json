@@ -1,0 +1,51 @@
+{
+  "toc": {
+    "sections": [
+      {
+        "title": "Tronel",
+        "source": "docs/README.md",
+        "url": "index.html",
+        "slug": "index"
+      },
+      {
+        "title": "/bets",
+        "source": "docs/bets/README.md",
+        "url": "bets/index.html",
+        "slug": "bets",
+        "sections": [
+          {
+            "title": "/bets GET",
+            "source": "docs/bets/get.md",
+            "url": "bets/get.html",
+            "slug": "betsget"
+          }
+        ]
+      }
+    ]
+  },
+  "index": {
+    "index.html": {
+      "source": "docs/README.md",
+      "title": "Tronel",
+      "pageTitle": "Tronel",
+      "slug": "index"
+    },
+    "bets/index.html": {
+      "source": "docs/bets/README.md",
+      "title": "/bets - Tronel",
+      "pageTitle": "/bets",
+      "slug": "bets"
+    },
+    "bets/get.html": {
+      "source": "docs/bets/get.md",
+      "title": "/bets GET - Tronel",
+      "pageTitle": "/bets GET",
+      "slug": "betsget"
+    }
+  },
+  "sources": {
+    "docs/README.md": "index.html",
+    "docs/bets/README.md": "bets/index.html",
+    "docs/bets/get.md": "bets/get.html"
+  }
+}
