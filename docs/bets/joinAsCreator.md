@@ -1,9 +1,9 @@
 /bets/:id/join PUT
 =========
 
-update joiner state and turn off some jobs in server. call this when a user joins bet.
+update state of the bet, when creator of bet, join his/her bet. return updated bet. call this when creator joins bet.
 
-* route: `/bets/:id/join`
+* route: `/bets/:id/joinAsCreator`
   * id: bet id.
 * method: `PUT`
 * url query: none

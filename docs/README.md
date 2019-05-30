@@ -6,3 +6,4 @@ Documentation
   * [/bets GET](bets/get.md)
   * [/bets POST](bets/post.md)
   * [/bets/:id/join PUT](bets/join.md)
+  * [/bets/:id/joinAsCreator PUT](bets/joinAsCreator.md)
