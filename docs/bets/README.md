@@ -5,3 +5,4 @@
 * [/bets POST](post.md)
 * [/bets/:id/join PUT](join.md)
 * [/bets/:id/joinAsCreator PUT](joinAsCreator.md)
+* [/bets/:id/disable PUT](disable.md)
