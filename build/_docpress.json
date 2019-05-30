@@ -18,6 +18,12 @@
             "source": "docs/bets/get.md",
             "url": "bets/get.html",
             "slug": "betsget"
+          },
+          {
+            "title": "/bets POST",
+            "source": "docs/bets/post.md",
+            "url": "bets/post.html",
+            "slug": "betspost"
           }
         ]
       }
@@ -41,11 +47,18 @@
       "title": "/bets GET - Tronel",
       "pageTitle": "/bets GET",
       "slug": "betsget"
+    },
+    "bets/post.html": {
+      "source": "docs/bets/post.md",
+      "title": "/bets POST - Tronel",
+      "pageTitle": "/bets POST",
+      "slug": "betspost"
     }
   },
   "sources": {
     "docs/README.md": "index.html",
     "docs/bets/README.md": "bets/index.html",
-    "docs/bets/get.md": "bets/get.html"
+    "docs/bets/get.md": "bets/get.html",
+    "docs/bets/post.md": "bets/post.html"
   }
 }
