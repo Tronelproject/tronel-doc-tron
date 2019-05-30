@@ -24,6 +24,12 @@
             "source": "docs/bets/post.md",
             "url": "bets/post.html",
             "slug": "betspost"
+          },
+          {
+            "title": "/bets/:id/join PUT",
+            "source": "docs/bets/join.md",
+            "url": "bets/join.html",
+            "slug": "betsjoin"
           }
         ]
       }
@@ -53,12 +59,19 @@
       "title": "/bets POST - Tronel",
       "pageTitle": "/bets POST",
       "slug": "betspost"
+    },
+    "bets/join.html": {
+      "source": "docs/bets/join.md",
+      "title": "/bets/:id/join PUT - Tronel",
+      "pageTitle": "/bets/:id/join PUT",
+      "slug": "betsjoin"
     }
   },
   "sources": {
     "docs/README.md": "index.html",
     "docs/bets/README.md": "bets/index.html",
     "docs/bets/get.md": "bets/get.html",
-    "docs/bets/post.md": "bets/post.html"
+    "docs/bets/post.md": "bets/post.html",
+    "docs/bets/join.md": "bets/join.html"
   }
 }
