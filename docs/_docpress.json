@@ -3,37 +3,37 @@
     "sections": [
       {
         "title": "Tronel",
-        "source": "docs/README.md",
+        "source": "files/README.md",
         "url": "index.html",
         "slug": "index"
       },
       {
         "title": "/bets",
-        "source": "docs/bets/README.md",
+        "source": "files/bets/README.md",
         "url": "bets/index.html",
         "slug": "bets",
         "sections": [
           {
             "title": "/bets GET",
-            "source": "docs/bets/get.md",
+            "source": "files/bets/get.md",
             "url": "bets/get.html",
             "slug": "betsget"
           },
           {
             "title": "/bets POST",
-            "source": "docs/bets/post.md",
+            "source": "files/bets/post.md",
             "url": "bets/post.html",
             "slug": "betspost"
           },
           {
             "title": "/bets/:id/join PUT",
-            "source": "docs/bets/join.md",
+            "source": "files/bets/join.md",
             "url": "bets/join.html",
             "slug": "betsjoin"
           },
           {
             "title": "/bets/:id/disable PUT",
-            "source": "docs/bets/disable.md",
+            "source": "files/bets/disable.md",
             "url": "bets/disable.html",
             "slug": "betsdisable"
           }
@@ -43,48 +43,48 @@
   },
   "index": {
     "index.html": {
-      "source": "docs/README.md",
+      "source": "files/README.md",
       "title": "Tronel",
       "pageTitle": "Tronel",
       "slug": "index"
     },
     "bets/index.html": {
-      "source": "docs/bets/README.md",
+      "source": "files/bets/README.md",
       "title": "/bets - Tronel",
       "pageTitle": "/bets",
       "slug": "bets"
     },
     "bets/get.html": {
-      "source": "docs/bets/get.md",
+      "source": "files/bets/get.md",
       "title": "/bets GET - Tronel",
       "pageTitle": "/bets GET",
       "slug": "betsget"
     },
     "bets/post.html": {
-      "source": "docs/bets/post.md",
+      "source": "files/bets/post.md",
       "title": "/bets POST - Tronel",
       "pageTitle": "/bets POST",
       "slug": "betspost"
     },
     "bets/join.html": {
-      "source": "docs/bets/join.md",
+      "source": "files/bets/join.md",
       "title": "/bets/:id/join PUT - Tronel",
       "pageTitle": "/bets/:id/join PUT",
       "slug": "betsjoin"
     },
     "bets/disable.html": {
-      "source": "docs/bets/disable.md",
+      "source": "files/bets/disable.md",
       "title": "/bets/:id/disable PUT - Tronel",
       "pageTitle": "/bets/:id/disable PUT",
       "slug": "betsdisable"
     }
   },
   "sources": {
-    "docs/README.md": "index.html",
-    "docs/bets/README.md": "bets/index.html",
-    "docs/bets/get.md": "bets/get.html",
-    "docs/bets/post.md": "bets/post.html",
-    "docs/bets/join.md": "bets/join.html",
-    "docs/bets/disable.md": "bets/disable.html"
+    "files/README.md": "index.html",
+    "files/bets/README.md": "bets/index.html",
+    "files/bets/get.md": "bets/get.html",
+    "files/bets/post.md": "bets/post.html",
+    "files/bets/join.md": "bets/join.html",
+    "files/bets/disable.md": "bets/disable.html"
   }
 }
