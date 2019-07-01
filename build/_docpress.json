@@ -32,12 +32,6 @@
             "slug": "betsjoin"
           },
           {
-            "title": "/bets/:id/joinAsCreator PUT",
-            "source": "docs/bets/joinAsCreator.md",
-            "url": "bets/joinAsCreator.html",
-            "slug": "betsjoinascreator"
-          },
-          {
             "title": "/bets/:id/disable PUT",
             "source": "docs/bets/disable.md",
             "url": "bets/disable.html",
@@ -78,12 +72,6 @@
       "pageTitle": "/bets/:id/join PUT",
       "slug": "betsjoin"
     },
-    "bets/joinAsCreator.html": {
-      "source": "docs/bets/joinAsCreator.md",
-      "title": "/bets/:id/joinAsCreator PUT - Tronel",
-      "pageTitle": "/bets/:id/joinAsCreator PUT",
-      "slug": "betsjoinascreator"
-    },
     "bets/disable.html": {
       "source": "docs/bets/disable.md",
       "title": "/bets/:id/disable PUT - Tronel",
@@ -97,7 +85,6 @@
     "docs/bets/get.md": "bets/get.html",
     "docs/bets/post.md": "bets/post.html",
     "docs/bets/join.md": "bets/join.html",
-    "docs/bets/joinAsCreator.md": "bets/joinAsCreator.html",
     "docs/bets/disable.md": "bets/disable.html"
   }
 }
