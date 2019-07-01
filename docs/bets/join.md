@@ -4,40 +4,39 @@
 update joiner state and turn off some jobs in server. call this when a user joins bet.
 
 * route: `/bets/:id/join`
-  * id: bet id.
+* id: bet id.
 * method: `PUT`
 * url query: none
 * body: none
 
 * response: `Object`
-
-  * sample response
+  * sample response:
     ```javascript
     {
       id: '5ceb99b92e98592cd9940d53',
-      address: '0x0000000000000000000000000000000000000000',
-      creator: '0x0000000000000000000000000000000000000000',
-      joiner: '0x0000000000000000000000000000000000000000',
+      address: 'TVWmQKmaJNowQewdGz16ekW2jQgXwaAfCc',
+      creator: 'TAzaDwcKucTz9YJwMWotXKib4iH4RYG8PJ',
+      joiner: 'TDyWa7saV4hpZUup45arrQjoRoe13Wf5aY',
       currency: 'bitcoin',
-      predictPrice: 8000,
+      predictPrice: 8000, // in sun
       predictTime: 1559212920, // based on seconds not miliseconds
       predictType: 1,
       submittedPrice: 0,
       disabled: false,
       done: false,
-      balance: 10 // 10 TPI
+      balance: 10 // 10 in sun
     }
     ```
 
-* error:
-  * status: `400`
-  * reason: bet id is not found.
-  * response:
-  ```javascript
-  {
-    status: 400,
-    error: {
-      // error object
+  * error:
+    * status: `400`
+    * reason: bet id is not found or couldn't interact with smart contract.
+    * response:
+    ```javascript
+    {
+      status: 400,
+      error: {
+        // error object
+      }
     }
-  }
-  ```
+    ```

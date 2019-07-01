@@ -10,14 +10,14 @@ list of all bets.
 
 * response: `[Object]`
 
-  * sample response
+  * sample response:
     ```javascript
     [
       {
         id: '5ceb99b92e98592cd9940d53',
-        address: '0x0000000000000000000000000000000000000000',
-        creator: '0x0000000000000000000000000000000000000000',
-        joiner: '0x0000000000000000000000000000000000000000',
+        address: 'TVWmQKmaJNowQewdGz16ekW2jQgXwaAfCc',
+        creator: 'TAzaDwcKucTz9YJwMWotXKib4iH4RYG8PJ',
+        joiner: 'T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb',
         currency: 'bitcoin',
         predictPrice: 8000,
         predictTime: 1559212920, // based on seconds not miliseconds

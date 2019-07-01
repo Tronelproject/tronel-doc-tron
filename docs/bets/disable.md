@@ -10,34 +10,33 @@ update state of the bet, when creator of bet, disable a bet.
 * body: none
 
 * response: `Object`
-
-  * sample response
+  * sample response:
     ```javascript
     {
       id: '5ceb99b92e98592cd9940d53',
-      address: '0x0000000000000000000000000000000000000000',
-      creator: '0x0000000000000000000000000000000000000000',
-      joiner: '0x0000000000000000000000000000000000000000',
+      address: 'TVWmQKmaJNowQewdGz16ekW2jQgXwaAfCc',
+      creator: 'TAzaDwcKucTz9YJwMWotXKib4iH4RYG8PJ',
+      joiner: 'T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb',
       currency: 'bitcoin',
       predictPrice: 8000,
       predictTime: 1559212920, // based on seconds not miliseconds
       predictType: 1,
       submittedPrice: 0,
-      disabled: false,
+      disabled: true,
       done: false,
       balance: 10 // 10 TPI
     }
     ```
 
-* error:
-  * status: `400`
-  * reason: bet id is not found.
-  * response:
-  ```javascript
-  {
-    status: 400,
-    error: {
-      // error object
-    }
-  }
-  ```
+    * error:
+      * status: `400`
+      * reason: bet id is not found.
+      * response:
+      ```javascript
+      {
+        status: 400,
+        error: {
+          // error object
+        }
+      }
+      ```
