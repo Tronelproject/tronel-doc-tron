@@ -1,7 +1,7 @@
 /bets POST
 =========
 
-check all new bets, and send new bets.
+add a new bet to database and set jobs for setting price.
 
 * route: `/bets`
 * method: `POST`
@@ -21,7 +21,7 @@ check all new bets, and send new bets.
       id: '5ceb99b92e98592cd9940d53',
       address: 'TVWmQKmaJNowQewdGz16ekW2jQgXwaAfCc',
       creator: 'TAzaDwcKucTz9YJwMWotXKib4iH4RYG8PJ',
-      joiner: 'T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb', // default address, genesis address. it means nobody joined
+      acceptor: 'T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb', // default address, genesis address. it means nobody joined
       currency: 'bitcoin',
       predictPrice: 8000,
       predictTime: 1559212920, // based on seconds not miliseconds
@@ -29,7 +29,7 @@ check all new bets, and send new bets.
       submittedPrice: 0,
       disabled: false,
       done: false,
-      balance: 10 // 10 sun
+      betAmount: 10 // 10 sun
     }
     ```
 

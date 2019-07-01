@@ -1,7 +1,7 @@
 /bets/:id/join PUT
 =========
 
-update joiner state and turn off some jobs in server. call this when a user joins bet.
+when other user joined to bet.
 
 * route: `/bets/:id/join`
 * id: bet id.
@@ -16,7 +16,7 @@ update joiner state and turn off some jobs in server. call this when a user join
       id: '5ceb99b92e98592cd9940d53',
       address: 'TVWmQKmaJNowQewdGz16ekW2jQgXwaAfCc',
       creator: 'TAzaDwcKucTz9YJwMWotXKib4iH4RYG8PJ',
-      joiner: 'TDyWa7saV4hpZUup45arrQjoRoe13Wf5aY',
+      acceptor: 'TDyWa7saV4hpZUup45arrQjoRoe13Wf5aY',
       currency: 'bitcoin',
       predictPrice: 8000, // in sun
       predictTime: 1559212920, // based on seconds not miliseconds
@@ -24,7 +24,7 @@ update joiner state and turn off some jobs in server. call this when a user join
       submittedPrice: 0,
       disabled: false,
       done: false,
-      balance: 10 // 10 in sun
+      betAmount: 10 // 10 in sun
     }
     ```
 
